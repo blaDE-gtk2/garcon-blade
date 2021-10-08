@@ -108,11 +108,11 @@ msgstr ""
 msgid "Screensavers"
 msgstr ""
 
-#: ../data/xfce/xfce-settings.directory.in.h:1
+#: ../data/xfce/blade-settings.directory.in.h:1
 msgid "Desktop and system settings applications"
 msgstr ""
 
-#: ../data/xfce/xfce-settings.directory.in.h:2
+#: ../data/xfce/blade-settings.directory.in.h:2
 msgid "Settings"
 msgstr ""
 
@@ -124,17 +124,17 @@ msgstr ""
 msgid "System tools and utilities"
 msgstr ""
 
-#: ../garcon/garcon-menu.c:698
+#: ../pojk/pojk-menu.c:698
 #, c-format
 msgid "File \"%s\" not found"
 msgstr ""
 
-#: ../garcon/garcon-menu-parser.c:278
+#: ../pojk/pojk-menu-parser.c:278
 #, c-format
 msgid "Could not load menu file data from %s: %s"
 msgstr "Nevarēja ielādēt izvēlnes faila datus no %s: %s"
 
-#: ../garcon/garcon-menu-parser.c:284
+#: ../pojk/pojk-menu-parser.c:284
 #, c-format
 msgid "Could not load menu file data from %s"
 msgstr "Nevarēja ielādēt izvēlnes faila datus no %s"

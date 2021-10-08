@@ -20,7 +20,7 @@
 - Decrement allocation counter on item unref (#12700)
 - Replace hash table for application actions with a list
 - Support for freedesktop Keyword item (#10683)
-- garcon-gtk2-1.pc should be optional.
+- pojk-gtk2-1.pc should be optional.
 - Fix documentation generation
 - Fix make distcheck build
 - Fix some autogen warnings
@@ -38,16 +38,16 @@
 
 0.6.1
 =====
-- Remove extraneous libxfce4ui-1 check
-- Fix garcon-2 reference Bug #13543
-- Drop libgarcon-2
-- Make building garcon-gtk2 optional
+- Remove extraneous libbladeui-1 check
+- Fix pojk-2 reference Bug #13543
+- Drop libpojk-2
+- Make building pojk-gtk2 optional
 - Translation updates: el, sr, gl, sl
 
 0.6.0
 =====
 - Fix left-alignment of labels in menuitems
-- garcon-gtk: Add an option to edit launchers
+- pojk-gtk: Add an option to edit launchers
 - Desktop actions custom icon support
 - Show desktop actions in a submenu
 - Added desktop actions support (bug #11268)
@@ -72,9 +72,9 @@
 
 0.3.0
 =====
-- Avoid direct include of garcon-menu.h.
-- Add garcon_set_environment_xdg() function.
-- Add a garcon-gtk library for common gtk functions.
+- Avoid direct include of pojk-menu.h.
+- Add pojk_set_environment_xdg() function.
+- Add a pojk-gtk library for common gtk functions.
 - Bail out of creating a directory menu if it doesn't have a name.
 - Translation updates: Arabic, Bulgarian, Catalan (Valencian), Czech,
   Danish, German, Greek, English (Australia), English (United Kingdom),
@@ -140,10 +140,10 @@
 - A number of small memory leaks have been fixed.
 - Speedup a number of critical code-paths.
 - Use GSList instead of GList where possible.
-- Use XfceRc instead of GKeyFile, this makes garcon depend on
-  libxfce4util, but is faster and more memory efficient.
+- Use XfceRc instead of GKeyFile, this makes pojk depend on
+  libbladeutil, but is faster and more memory efficient.
 - Return an error string instead of freeing it, causing a sefgault in
-  xfce4-panel.
+  blade-bar.
 - Do not decrement the internal refcount of items, this should fixed
   the usage of <OnlyUnallocated/>.
 - Translations updates: Chinese (Taiwan), rabic, Romanian, Basque,
@@ -157,7 +157,7 @@
 - Remove the science toplevel category (bug #1038).
 - Fix merging parent menu file (bug #7169).
 - Handle local desktop file loading directly.
-- Don't unref NULL file in GarconMenuDirectory.
+- Don't unref NULL file in PojkMenuDirectory.
 - Translation updates: Telugu, Portuguese (Brazilian), Lithuanian,
   Dutch (Flemish), Chinese (China), German (de).
 
@@ -171,7 +171,7 @@
 0.1.6
 =====
 - Add <DefaultMergeDirs/> to xfce-applications.menu.
-- Also try the garcon install sysconfigdir for config lookups.
+- Also try the pojk install sysconfigdir for config lookups.
 - Use Xdt macros for debugging and linker optimizations.
 - Default menu prefix to "xfce-".
 - Fix search order of xdg data directories (bug #7187).
@@ -214,18 +214,18 @@
 =====
 - Fix license headers (bug #6226).
 - Implement file system monitoring, adding the signals
-  GarconMenu::reload-required, GarconMenu::directory-changed and
-  GarconMenuItem::changed for applications to react on file system
+  PojkMenu::reload-required, PojkMenu::directory-changed and
+  PojkMenuItem::changed for applications to react on file system
   changes.
-- Improve the code quality of garcon_config_lookup().
-- Lookup relative filenames with garcon_config_build_paths().
+- Improve the code quality of pojk_config_lookup().
+- Lookup relative filenames with pojk_config_build_paths().
 - Rework menu loading a bit.
 - Reload the Categories/OnlyShowIn/NotShowIn fields when reloading
-  a GarconMenuItem.
+  a PojkMenuItem.
 - Add new methods (this list may be incomplete):
-  - garcon_menu_element_equal()
-  - garcon_menu_item_pool_clear()
-  - garcon_menu_item_pool_lookup_file().
+  - pojk_menu_element_equal()
+  - pojk_menu_item_pool_clear()
+  - pojk_menu_item_pool_lookup_file().
 - Add Xfce menu data files from xfdesktop (bug #6272).
 - Remove deprecated encoding key from desktop files.
 - Fix a memory leak in merge file nodes with a filename.
@@ -239,7 +239,7 @@
 - Make tests noinst_PROGRAMS as they are not suited for automatic testing.
 - Fix some compiler warnings in the tests.
 - Drop pot file and switch to xdt 4.7.2.
-- Rename icon to icon_name in GarconMenuDirectory.
+- Rename icon to icon_name in PojkMenuDirectory.
 - Use g_value_dub_object where possible.
 - Plug various memory leaks.
 - Silent build.

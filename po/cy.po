@@ -6,12 +6,12 @@
 # Geraint Rowlands <ansbaradigeidfran@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Garcon\n"
+"Project-Id-Version: Pojk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 18:30+0200\n"
 "PO-Revision-Date: 2018-03-31 10:46+0000\n"
 "Last-Translator: Geraint Rowlands <ansbaradigeidfran@gmail.com>\n"
-"Language-Team: Welsh (http://www.transifex.com/xfce/garcon/language/cy/)\n"
+"Language-Team: Welsh (http://www.transifex.com/xfce/pojk/language/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -114,11 +114,11 @@ msgstr "Arbedwyr Sgrin"
 msgid "Screensaver applets"
 msgstr "Rhaglennig arbed sgrin"
 
-#: ../data/xfce/xfce-settings.directory.in.h:1
+#: ../data/xfce/blade-settings.directory.in.h:1
 msgid "Settings"
 msgstr "Gosodiadau"
 
-#: ../data/xfce/xfce-settings.directory.in.h:2
+#: ../data/xfce/blade-settings.directory.in.h:2
 msgid "Desktop and system settings applications"
 msgstr "Rhaglenni gosodiadau system a phenfwrdd"
 
@@ -130,40 +130,40 @@ msgstr "System"
 msgid "System tools and utilities"
 msgstr "Ategolion ac offer system"
 
-#: ../garcon/garcon-menu.c:702
+#: ../pojk/pojk-menu.c:702
 #, c-format
 msgid "File \"%s\" not found"
 msgstr "Ni ganfuwyd ffeil \"%s\""
 
-#: ../garcon/garcon-menu-parser.c:276
+#: ../pojk/pojk-menu-parser.c:276
 #, c-format
 msgid "Could not load menu file data from %s: %s"
 msgstr "Methu llwytho data ffeil llamlen o %s: %s"
 
-#: ../garcon/garcon-menu-parser.c:283
+#: ../pojk/pojk-menu-parser.c:283
 #, c-format
 msgid "Could not load menu file data from %s"
 msgstr "Methu llwytho data ffeil llamlen o %s"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:446
+#: ../pojk-gtk/pojk-gtk-menu.c:446
 #, c-format
 msgid "Failed to execute command \"%s\"."
 msgstr "Methu rhedeg gorchymyn \"%s\"."
 
-#: ../garcon-gtk/garcon-gtk-menu.c:472
+#: ../pojk-gtk/pojk-gtk-menu.c:472
 msgid "Launch Error"
 msgstr "Gwall Agor"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:474
+#: ../pojk-gtk/pojk-gtk-menu.c:474
 msgid ""
-"Unable to launch \"exo-desktop-item-edit\", which is required to create and "
+"Unable to launch \"blxo-desktop-item-edit\", which is required to create and "
 "edit menu items."
-msgstr "Methu agor \"exo-desktop-item-edit\", sydd ei angen i greu a golygu eitemau llamlen."
+msgstr "Methu agor \"blxo-desktop-item-edit\", sydd ei angen i greu a golygu eitemau llamlen."
 
-#: ../garcon-gtk/garcon-gtk-menu.c:476
+#: ../pojk-gtk/pojk-gtk-menu.c:476
 msgid "_Close"
 msgstr "_Cau"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:988
+#: ../pojk-gtk/pojk-gtk-menu.c:988
 msgid "Failed to load the applications menu"
 msgstr "Methu llwytho'r llamlen rhaglenni"

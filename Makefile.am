@@ -20,8 +20,8 @@
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 SUBDIRS =								\
-	garcon								\
-	garcon-gtk							\
+	pojk								\
+	pojk-gtk							\
 	docs								\
 	data								\
 	tests								\

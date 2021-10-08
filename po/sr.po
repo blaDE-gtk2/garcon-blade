@@ -9,12 +9,12 @@
 # Саша Петровић <salepetronije@gmail.com>, 2013,2016-2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Garcon\n"
+"Project-Id-Version: Pojk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 18:30+0200\n"
 "PO-Revision-Date: 2018-09-14 00:23+0000\n"
 "Last-Translator: Xfce Bot <transifex@xfce.org>\n"
-"Language-Team: Serbian (http://www.transifex.com/xfce/garcon/language/sr/)\n"
+"Language-Team: Serbian (http://www.transifex.com/xfce/pojk/language/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -117,11 +117,11 @@ msgstr "Чувари екрана"
 msgid "Screensaver applets"
 msgstr "Програмчићи чувара екрана"
 
-#: ../data/xfce/xfce-settings.directory.in.h:1
+#: ../data/xfce/blade-settings.directory.in.h:1
 msgid "Settings"
 msgstr "Поставке"
 
-#: ../data/xfce/xfce-settings.directory.in.h:2
+#: ../data/xfce/blade-settings.directory.in.h:2
 msgid "Desktop and system settings applications"
 msgstr "Програми за подешавање радне површи и система"
 
@@ -133,40 +133,40 @@ msgstr "Систем"
 msgid "System tools and utilities"
 msgstr "Системски програми и помагала"
 
-#: ../garcon/garcon-menu.c:702
+#: ../pojk/pojk-menu.c:702
 #, c-format
 msgid "File \"%s\" not found"
 msgstr "Датотека „%s“ није пронађена"
 
-#: ../garcon/garcon-menu-parser.c:276
+#: ../pojk/pojk-menu-parser.c:276
 #, c-format
 msgid "Could not load menu file data from %s: %s"
 msgstr "Нисам успео да учитам податке датотеке изборника из %s: %s"
 
-#: ../garcon/garcon-menu-parser.c:283
+#: ../pojk/pojk-menu-parser.c:283
 #, c-format
 msgid "Could not load menu file data from %s"
 msgstr "Нисам успео да учитам податке датотеке изборника из %s"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:446
+#: ../pojk-gtk/pojk-gtk-menu.c:446
 #, c-format
 msgid "Failed to execute command \"%s\"."
 msgstr "Нисам успео да извршим наредбу „%s“."
 
-#: ../garcon-gtk/garcon-gtk-menu.c:472
+#: ../pojk-gtk/pojk-gtk-menu.c:472
 msgid "Launch Error"
 msgstr "Грешка покретања"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:474
+#: ../pojk-gtk/pojk-gtk-menu.c:474
 msgid ""
-"Unable to launch \"exo-desktop-item-edit\", which is required to create and "
+"Unable to launch \"blxo-desktop-item-edit\", which is required to create and "
 "edit menu items."
-msgstr "Нисам успео покренути „exo-desktop-item-edit“, што је неопходно за стварање и уређивање ставки изборника."
+msgstr "Нисам успео покренути „blxo-desktop-item-edit“, што је неопходно за стварање и уређивање ставки изборника."
 
-#: ../garcon-gtk/garcon-gtk-menu.c:476
+#: ../pojk-gtk/pojk-gtk-menu.c:476
 msgid "_Close"
 msgstr "Затвори"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:988
+#: ../pojk-gtk/pojk-gtk-menu.c:988
 msgid "Failed to load the applications menu"
 msgstr "Нисам успео учитати изборник програма"

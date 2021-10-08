@@ -8,12 +8,12 @@
 # vyper <xvirusxx@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Garcon\n"
+"Project-Id-Version: Pojk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 18:30+0200\n"
 "PO-Revision-Date: 2017-09-19 18:02+0000\n"
 "Last-Translator: Alexe Moldovan\n"
-"Language-Team: Romanian (http://www.transifex.com/xfce/garcon/language/ro/)\n"
+"Language-Team: Romanian (http://www.transifex.com/xfce/pojk/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -116,11 +116,11 @@ msgstr "Protectoare de ecran"
 msgid "Screensaver applets"
 msgstr "Module ale protectorului de ecran"
 
-#: ../data/xfce/xfce-settings.directory.in.h:1
+#: ../data/xfce/blade-settings.directory.in.h:1
 msgid "Settings"
 msgstr "Opțiuni"
 
-#: ../data/xfce/xfce-settings.directory.in.h:2
+#: ../data/xfce/blade-settings.directory.in.h:2
 msgid "Desktop and system settings applications"
 msgstr "Programe de configurare a desktopului și a sistemului"
 
@@ -132,40 +132,40 @@ msgstr "Sistem"
 msgid "System tools and utilities"
 msgstr "Utilitare de sistem"
 
-#: ../garcon/garcon-menu.c:702
+#: ../pojk/pojk-menu.c:702
 #, c-format
 msgid "File \"%s\" not found"
 msgstr "Fișierul „%s” nu a fost găsit"
 
-#: ../garcon/garcon-menu-parser.c:276
+#: ../pojk/pojk-menu-parser.c:276
 #, c-format
 msgid "Could not load menu file data from %s: %s"
 msgstr "Nu s-au putut încărca datele fișierului meniu din %s: %s"
 
-#: ../garcon/garcon-menu-parser.c:283
+#: ../pojk/pojk-menu-parser.c:283
 #, c-format
 msgid "Could not load menu file data from %s"
 msgstr "Nu s-au putut încărca datele fișierului meniu din %s"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:446
+#: ../pojk-gtk/pojk-gtk-menu.c:446
 #, c-format
 msgid "Failed to execute command \"%s\"."
 msgstr "Nu s-a putut executa comanda „%s”."
 
-#: ../garcon-gtk/garcon-gtk-menu.c:472
+#: ../pojk-gtk/pojk-gtk-menu.c:472
 msgid "Launch Error"
 msgstr "Eroare de lansare"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:474
+#: ../pojk-gtk/pojk-gtk-menu.c:474
 msgid ""
-"Unable to launch \"exo-desktop-item-edit\", which is required to create and "
+"Unable to launch \"blxo-desktop-item-edit\", which is required to create and "
 "edit menu items."
-msgstr "Nu se poate lansa \"exo-desktop-item-edit\", care este necesar pentru a crea și edita elemente de meniu."
+msgstr "Nu se poate lansa \"blxo-desktop-item-edit\", care este necesar pentru a crea și edita elemente de meniu."
 
-#: ../garcon-gtk/garcon-gtk-menu.c:476
+#: ../pojk-gtk/pojk-gtk-menu.c:476
 msgid "_Close"
 msgstr "_Închide"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:988
+#: ../pojk-gtk/pojk-gtk-menu.c:988
 msgid "Failed to load the applications menu"
 msgstr "Nu s-a putut încărca meniul programelor"

@@ -9,12 +9,12 @@
 # Walter Cheuk <wwycheuk@gmail.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: Garcon\n"
+"Project-Id-Version: Pojk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 18:30+0200\n"
 "PO-Revision-Date: 2018-09-14 00:23+0000\n"
 "Last-Translator: Xfce Bot <transifex@xfce.org>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/xfce/garcon/language/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/xfce/pojk/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -117,11 +117,11 @@ msgstr "螢幕保護程式"
 msgid "Screensaver applets"
 msgstr "螢幕保護面板程式"
 
-#: ../data/xfce/xfce-settings.directory.in.h:1
+#: ../data/xfce/blade-settings.directory.in.h:1
 msgid "Settings"
 msgstr "設定值"
 
-#: ../data/xfce/xfce-settings.directory.in.h:2
+#: ../data/xfce/blade-settings.directory.in.h:2
 msgid "Desktop and system settings applications"
 msgstr "桌面與系統設定值應用程式"
 
@@ -133,40 +133,40 @@ msgstr "系統"
 msgid "System tools and utilities"
 msgstr "系統工具與公用程式"
 
-#: ../garcon/garcon-menu.c:702
+#: ../pojk/pojk-menu.c:702
 #, c-format
 msgid "File \"%s\" not found"
 msgstr "找不到「%s」檔案"
 
-#: ../garcon/garcon-menu-parser.c:276
+#: ../pojk/pojk-menu-parser.c:276
 #, c-format
 msgid "Could not load menu file data from %s: %s"
 msgstr "無法從 %s 載入選單檔資料：%s"
 
-#: ../garcon/garcon-menu-parser.c:283
+#: ../pojk/pojk-menu-parser.c:283
 #, c-format
 msgid "Could not load menu file data from %s"
 msgstr "無法從 %s 載入選單檔資料"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:446
+#: ../pojk-gtk/pojk-gtk-menu.c:446
 #, c-format
 msgid "Failed to execute command \"%s\"."
 msgstr "未能執行「%s」指令。"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:472
+#: ../pojk-gtk/pojk-gtk-menu.c:472
 msgid "Launch Error"
 msgstr "啟動發生錯誤"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:474
+#: ../pojk-gtk/pojk-gtk-menu.c:474
 msgid ""
-"Unable to launch \"exo-desktop-item-edit\", which is required to create and "
+"Unable to launch \"blxo-desktop-item-edit\", which is required to create and "
 "edit menu items."
-msgstr "無法啟動「exo-desktop-item-edit」，此為建立及編輯選單項目所必需。"
+msgstr "無法啟動「blxo-desktop-item-edit」，此為建立及編輯選單項目所必需。"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:476
+#: ../pojk-gtk/pojk-gtk-menu.c:476
 msgid "_Close"
 msgstr "關閉(_C)"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:988
+#: ../pojk-gtk/pojk-gtk-menu.c:988
 msgid "Failed to load the applications menu"
 msgstr "未能載入應用程式選單"

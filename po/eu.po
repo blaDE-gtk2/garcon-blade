@@ -7,12 +7,12 @@
 # Piarres Beobide <pi@beobide.net>, 2008-2010
 msgid ""
 msgstr ""
-"Project-Id-Version: Garcon\n"
+"Project-Id-Version: Pojk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 18:30+0200\n"
 "PO-Revision-Date: 2018-11-15 15:43+0000\n"
 "Last-Translator: beriain\n"
-"Language-Team: Basque (http://www.transifex.com/xfce/garcon/language/eu/)\n"
+"Language-Team: Basque (http://www.transifex.com/xfce/pojk/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -115,11 +115,11 @@ msgstr "Pantaila-babesleak"
 msgid "Screensaver applets"
 msgstr "Pantaila-babesle appletak"
 
-#: ../data/xfce/xfce-settings.directory.in.h:1
+#: ../data/xfce/blade-settings.directory.in.h:1
 msgid "Settings"
 msgstr "Ezarpenak"
 
-#: ../data/xfce/xfce-settings.directory.in.h:2
+#: ../data/xfce/blade-settings.directory.in.h:2
 msgid "Desktop and system settings applications"
 msgstr "Mahaigain eta sistema ezarpen aplikazioak"
 
@@ -131,40 +131,40 @@ msgstr "Sistema"
 msgid "System tools and utilities"
 msgstr "Sistema tresna eta lanabesak"
 
-#: ../garcon/garcon-menu.c:702
+#: ../pojk/pojk-menu.c:702
 #, c-format
 msgid "File \"%s\" not found"
 msgstr "\"%s\" fitxategia ez da aurkitu"
 
-#: ../garcon/garcon-menu-parser.c:276
+#: ../pojk/pojk-menu-parser.c:276
 #, c-format
 msgid "Could not load menu file data from %s: %s"
 msgstr "Ezin da %s-etik menuaren fitxategi datuak kargatu: %s."
 
-#: ../garcon/garcon-menu-parser.c:283
+#: ../pojk/pojk-menu-parser.c:283
 #, c-format
 msgid "Could not load menu file data from %s"
 msgstr "Ezin da %s-etik menuaren fitxategi datuak kargatu"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:446
+#: ../pojk-gtk/pojk-gtk-menu.c:446
 #, c-format
 msgid "Failed to execute command \"%s\"."
 msgstr "Ezin da \"%s\" komandoa exekutatu."
 
-#: ../garcon-gtk/garcon-gtk-menu.c:472
+#: ../pojk-gtk/pojk-gtk-menu.c:472
 msgid "Launch Error"
 msgstr "Errorea abiaraztean"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:474
+#: ../pojk-gtk/pojk-gtk-menu.c:474
 msgid ""
-"Unable to launch \"exo-desktop-item-edit\", which is required to create and "
+"Unable to launch \"blxo-desktop-item-edit\", which is required to create and "
 "edit menu items."
-msgstr "Ezin izan da \"exo-desktop-item-edit\" abiarazi, menuetako elementuak sortu eta editatzeko beharrezkoa dena."
+msgstr "Ezin izan da \"blxo-desktop-item-edit\" abiarazi, menuetako elementuak sortu eta editatzeko beharrezkoa dena."
 
-#: ../garcon-gtk/garcon-gtk-menu.c:476
+#: ../pojk-gtk/pojk-gtk-menu.c:476
 msgid "_Close"
 msgstr "_Itxi"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:988
+#: ../pojk-gtk/pojk-gtk-menu.c:988
 msgid "Failed to load the applications menu"
 msgstr "Huts aplikazio menua kargatzean"

@@ -7,12 +7,12 @@
 # ప్రవీణ్ ఇళ్ళ <mail2ipn@gmail.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Garcon\n"
+"Project-Id-Version: Pojk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 18:30+0200\n"
 "PO-Revision-Date: 2018-09-14 00:23+0000\n"
 "Last-Translator: Nick Schermer <nick@xfce.org>\n"
-"Language-Team: Telugu (http://www.transifex.com/xfce/garcon/language/te/)\n"
+"Language-Team: Telugu (http://www.transifex.com/xfce/pojk/language/te/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -115,11 +115,11 @@ msgstr "తెరకాపరులు"
 msgid "Screensaver applets"
 msgstr "తెరకాపరి ఆప్లెట్లు"
 
-#: ../data/xfce/xfce-settings.directory.in.h:1
+#: ../data/xfce/blade-settings.directory.in.h:1
 msgid "Settings"
 msgstr "అమరికలు"
 
-#: ../data/xfce/xfce-settings.directory.in.h:2
+#: ../data/xfce/blade-settings.directory.in.h:2
 msgid "Desktop and system settings applications"
 msgstr "డెస్క్‌టాప్ మరియు వ్యవస్థ అనువర్తనాలు అమరికలు"
 
@@ -131,40 +131,40 @@ msgstr "వ్యవస్థ"
 msgid "System tools and utilities"
 msgstr "వ్యవస్థ సాధనాలు మరియు వినియోగాలు"
 
-#: ../garcon/garcon-menu.c:702
+#: ../pojk/pojk-menu.c:702
 #, c-format
 msgid "File \"%s\" not found"
 msgstr "\"%s\" దస్త్రం కనపడలేదు"
 
-#: ../garcon/garcon-menu-parser.c:276
+#: ../pojk/pojk-menu-parser.c:276
 #, c-format
 msgid "Could not load menu file data from %s: %s"
 msgstr "%s నుండి మెనూ దస్త్రాన్ని లోడుచేయుట వీలుకాదు: %s"
 
-#: ../garcon/garcon-menu-parser.c:283
+#: ../pojk/pojk-menu-parser.c:283
 #, c-format
 msgid "Could not load menu file data from %s"
 msgstr "%s నుండి మెనూ దస్త్రాన్ని లోడుచేయుట వీలుకాదు"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:446
+#: ../pojk-gtk/pojk-gtk-menu.c:446
 #, c-format
 msgid "Failed to execute command \"%s\"."
 msgstr "\"%s\" ఆదేశాన్ని అమలుపరుచుటలో విఫలమైంది."
 
-#: ../garcon-gtk/garcon-gtk-menu.c:472
+#: ../pojk-gtk/pojk-gtk-menu.c:472
 msgid "Launch Error"
 msgstr "ప్రారంభ దోషము"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:474
+#: ../pojk-gtk/pojk-gtk-menu.c:474
 msgid ""
-"Unable to launch \"exo-desktop-item-edit\", which is required to create and "
+"Unable to launch \"blxo-desktop-item-edit\", which is required to create and "
 "edit menu items."
 msgstr ""
 
-#: ../garcon-gtk/garcon-gtk-menu.c:476
+#: ../pojk-gtk/pojk-gtk-menu.c:476
 msgid "_Close"
 msgstr "మూసివేయి (_C)"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:988
+#: ../pojk-gtk/pojk-gtk-menu.c:988
 msgid "Failed to load the applications menu"
 msgstr "అనువర్తనాల మెనూ నింపుటలో విఫలమైంది"

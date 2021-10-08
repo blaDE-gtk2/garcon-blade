@@ -20,7 +20,7 @@
 AUTOMAKE_OPTIONS = 1.8
 
 # Name of the module
-DOC_MODULE=garcon
+DOC_MODULE=pojk
 
 # Top-level SGML file
 DOC_MAIN_SGML_FILE=$(DOC_MODULE)-docs.xml
@@ -32,8 +32,8 @@ SCANGOBJ_OPTIONS=
 
 # Directory containing the source code
 DOC_SOURCE_DIR= \
-	../../garcon \
-	../../garcon-gtk
+	../../pojk \
+	../../pojk-gtk
 
 # Extra options to supply to gtkdoc-mkdb
 MKDB_OPTIONS=--sgml-mode --output-format=xml
@@ -43,11 +43,11 @@ FIXXREF_OPTIONS=
 
 # Used for dependencies
 HFILE_GLOB= \
-	$(top_srcdir)/garcon/*.h \
-	$(top_srcdir)/garcon-gtk/*.h
+	$(top_srcdir)/pojk/*.h \
+	$(top_srcdir)/pojk-gtk/*.h
 CFILE_GLOB= \
-	$(top_srcdir)/garcon/*.c \
-	$(top_srcdir)/garcon-gtk/*.c
+	$(top_srcdir)/pojk/*.c \
+	$(top_srcdir)/pojk-gtk/*.c
 
 # Extra files to add when scanning (relative to $srcdir)
 EXTRA_HFILES=
@@ -62,6 +62,7 @@ content_files =								\
 # CFLAGS and LDFLAGS for compiling scan program. Only needed
 # if $(DOC_MODULE).types is non-empty.
 AM_CPPFLAGS =	 							\
+	-DGLIB_DISABLE_DEPRECATION_WARNINGS \
 	-I$(top_srcdir) 						\
 	-I$(top_builddir) 						\
 	$(GIO_CFLAGS)							\
@@ -69,7 +70,7 @@ AM_CPPFLAGS =	 							\
 	$(GOBJECT_CFLAGS)						\
 	$(GTHREAD_CFLAGS)						\
 	$(GTK_CFLAGS)							\
-	$(LIBXFCE4UTIL_CFLAGS)
+	$(LIBBLADEUTIL_CFLAGS)
 
 GTKDOC_LIBS =								\
 	$(GIO_LIBS)							\
@@ -77,9 +78,9 @@ GTKDOC_LIBS =								\
 	$(GOBJECT_LIBS)							\
 	$(GTHREAD_LIBS)							\
 	$(GTK_CFLAGS)							\
-	$(LIBXFCE4UTIL_LIBS)						\
-	$(top_builddir)/garcon/libgarcon-$(GARCON_VERSION_API).la \
-	$(top_builddir)/garcon-gtk/libgarcon-gtk3-1.la
+	$(LIBBLADEUTIL_LIBS)						\
+	$(top_builddir)/pojk/libpojk-$(POJK_VERSION_API).la \
+	$(top_builddir)/pojk-gtk/libpojk-gtk3-1.la
 
 include $(top_srcdir)/gtk-doc.make
 

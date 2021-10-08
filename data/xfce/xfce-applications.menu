@@ -15,10 +15,10 @@
     <Layout>
         <Filename>xfce4-run.desktop</Filename>
         <Separator/>
-        <Filename>exo-terminal-emulator.desktop</Filename>
-        <Filename>exo-file-manager.desktop</Filename>
-        <Filename>exo-mail-reader.desktop</Filename>
-        <Filename>exo-web-browser.desktop</Filename>
+        <Filename>blxo-terminal-emulator.desktop</Filename>
+        <Filename>blxo-file-manager.desktop</Filename>
+        <Filename>blxo-mail-reader.desktop</Filename>
+        <Filename>blxo-web-browser.desktop</Filename>
         <Separator/>
         <Menuname>Settings</Menuname>
         <Separator/>
@@ -30,13 +30,13 @@
 
     <Menu>
         <Name>Settings</Name>
-        <Directory>xfce-settings.directory</Directory>
+        <Directory>blade-settings.directory</Directory>
         <Include>
             <Category>Settings</Category>
         </Include>
 
         <Layout>
-            <Filename>xfce-settings-manager.desktop</Filename>
+            <Filename>blade-settings-manager.desktop</Filename>
             <Separator/>
             <Merge type="all"/>
         </Layout>
@@ -63,8 +63,8 @@
         </Include>
         <Exclude>
             <Or>
-                <Filename>exo-file-manager.desktop</Filename>
-                <Filename>exo-terminal-emulator.desktop</Filename>
+                <Filename>blxo-file-manager.desktop</Filename>
+                <Filename>blxo-terminal-emulator.desktop</Filename>
                 <Filename>xfce4-about.desktop</Filename>
                 <Filename>xfce4-run.desktop</Filename>
             </Or>
@@ -121,8 +121,8 @@
         </Include>
         <Exclude>
             <Or>
-                <Filename>exo-mail-reader.desktop</Filename>
-                <Filename>exo-web-browser.desktop</Filename>
+                <Filename>blxo-mail-reader.desktop</Filename>
+                <Filename>blxo-web-browser.desktop</Filename>
             </Or>
         </Exclude>
     </Menu>

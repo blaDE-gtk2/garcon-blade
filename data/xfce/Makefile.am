@@ -35,7 +35,7 @@ directory_in_files =							\
 	xfce-other.directory.in						\
 	xfce-personal.directory.in					\
 	xfce-screensavers.directory.in					\
-	xfce-settings.directory.in					\
+	blade-settings.directory.in					\
 	xfce-system.directory.in
 
 directory_DATA = $(directory_in_files:.directory.in=.directory)

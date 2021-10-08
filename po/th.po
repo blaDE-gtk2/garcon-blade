@@ -6,12 +6,12 @@
 # Theppitak Karoonboonyanan <thep@linux.thai.net>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: Garcon\n"
+"Project-Id-Version: Pojk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-20 18:30+0200\n"
 "PO-Revision-Date: 2018-09-14 00:23+0000\n"
 "Last-Translator: Xfce Bot <transifex@xfce.org>\n"
-"Language-Team: Thai (http://www.transifex.com/xfce/garcon/language/th/)\n"
+"Language-Team: Thai (http://www.transifex.com/xfce/pojk/language/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -114,11 +114,11 @@ msgstr "โปรแกรมรักษาหน้าจอ"
 msgid "Screensaver applets"
 msgstr "แอพเพล็ตของโปรแกรมรักษาหน้าจอ"
 
-#: ../data/xfce/xfce-settings.directory.in.h:1
+#: ../data/xfce/blade-settings.directory.in.h:1
 msgid "Settings"
 msgstr "ตั้งค่า"
 
-#: ../data/xfce/xfce-settings.directory.in.h:2
+#: ../data/xfce/blade-settings.directory.in.h:2
 msgid "Desktop and system settings applications"
 msgstr "โปรแกรมสำหรับตั้งค่าเดสก์ท็อปและระบบ"
 
@@ -130,40 +130,40 @@ msgstr "ระบบ"
 msgid "System tools and utilities"
 msgstr "เครื่องมือระบบ"
 
-#: ../garcon/garcon-menu.c:702
+#: ../pojk/pojk-menu.c:702
 #, c-format
 msgid "File \"%s\" not found"
 msgstr "ไม่พบแฟ้ม \"%s\""
 
-#: ../garcon/garcon-menu-parser.c:276
+#: ../pojk/pojk-menu-parser.c:276
 #, c-format
 msgid "Could not load menu file data from %s: %s"
 msgstr "ไม่สามารถโหลดข้อมูลแฟ้มเมนูจาก %s: %s"
 
-#: ../garcon/garcon-menu-parser.c:283
+#: ../pojk/pojk-menu-parser.c:283
 #, c-format
 msgid "Could not load menu file data from %s"
 msgstr "ไม่สามารถโหลดข้อมูลแฟ้มเมนูจาก %s"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:446
+#: ../pojk-gtk/pojk-gtk-menu.c:446
 #, c-format
 msgid "Failed to execute command \"%s\"."
 msgstr "เรียกทำงานคำสั่ง \"%s\" ไม่สำเร็จ"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:472
+#: ../pojk-gtk/pojk-gtk-menu.c:472
 msgid "Launch Error"
 msgstr "ข้อผิดพลาดในการเรียกทำงาน"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:474
+#: ../pojk-gtk/pojk-gtk-menu.c:474
 msgid ""
-"Unable to launch \"exo-desktop-item-edit\", which is required to create and "
+"Unable to launch \"blxo-desktop-item-edit\", which is required to create and "
 "edit menu items."
-msgstr "ไม่สามารถเรียกทำงาน \"exo-desktop-item-edit\" ซึ่งจำเป็นในการสร้างและแก้ไขรายการเมนูต่างๆ"
+msgstr "ไม่สามารถเรียกทำงาน \"blxo-desktop-item-edit\" ซึ่งจำเป็นในการสร้างและแก้ไขรายการเมนูต่างๆ"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:476
+#: ../pojk-gtk/pojk-gtk-menu.c:476
 msgid "_Close"
 msgstr "ปิ_ด"
 
-#: ../garcon-gtk/garcon-gtk-menu.c:988
+#: ../pojk-gtk/pojk-gtk-menu.c:988
 msgid "Failed to load the applications menu"
 msgstr "โหลดเมนูโปรแกรมไม่สำเร็จ"
